@@ -27,7 +27,7 @@ const router = createRouter({
       name: 'login',
       component: import('../views/Auth/Login.vue'),
       meta: {
-        auth: false
+        auth: true
       }
     },
     {
